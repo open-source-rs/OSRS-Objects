@@ -1,1 +1,52 @@
-place holder
+{
+	"description": "This object if for recording and grouping basic information that is a result of a VirusTotal file search.",
+	"meta-category": "OSRS-Objects",
+	"uuid": "557ed5ec-b2f3-11e9-a2a3-2a2ae2dbcce4",
+	"name": "osrs-vt-base-object",
+	"version": 1,
+	"attributes":
+	{
+		"md5":
+		{
+			"description": "MD5 file hash",
+			"ui-priority": 1,
+			"misp-attribute": "md5.",
+			"multiple": true,
+			"disable_correlation": false
+		},
+		"sha-1":
+		{
+			"description": "SHA-1 file hash.",
+			"ui-priority": 1,
+			"misp-attribute": "sha1",
+			"multiple": true,
+			"disable_correlation": false			
+		},
+		"sha-256":
+		{
+			"description": "SHA-256 file hash.",
+			"ui-priority": 1,
+			"misp-attribute": "sha256",
+			"multiple": true,
+			"disable_correlation": false			
+		},
+		"filename":
+		{
+			"description": "Name of file found on storage medium.",
+			"ui-priority": 0,
+			"misp-attribute": "filename",
+			"multiple": true,
+			"disable_correlation": false
+		},
+		"link-to-vt-report":
+		{
+			"description": "Link to VirusTotal report that includes additional file related information.",
+			"ui-priority": 0,
+			"misp-attribute": "link",
+			"multiple": false,
+			"disable_correlation": true
+		}
+	}
+}
+
+
