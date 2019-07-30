@@ -46,6 +46,18 @@
 			"multiple": false,
 			"disable_correlation": true
 		}
+		"file-type":
+		{
+			"description": "The type of file (i.e. Win32 PE etc.).",
+			"ui-priority": 0,
+			"misp-attribute": "text",
+			"multiple": false,
+			"disable_correlation": true,
+			"type-list": [
+				"Win32 PE",
+				"Win32 DLL"
+			]
+		}
 	}
 }
 
