@@ -1,9 +1,9 @@
 {
-	"description": "This object if for recording and grouping basic information that is a result of a VirusTotal file search.",
-	"meta-category": "OSRS-Objects",
-	"uuid": "557ed5ec-b2f3-11e9-a2a3-2a2ae2dbcce4",
-	"name": "osrs-vt-base-object",
-	"version": 1,
+	"requiredOneOf":[
+		"md5",
+		"sha-1",
+		"sha-256"
+		],
 	"attributes":
 	{
 		"md5":
@@ -46,19 +46,12 @@
 			"multiple": false,
 			"disable_correlation": true
 		}
-		"file-type":
-		{
-			"description": "The type of file (i.e. Win32 PE etc.).",
-			"ui-priority": 0,
-			"misp-attribute": "text",
-			"multiple": false,
-			"disable_correlation": true,
-			"type-list": [
-				"Win32 PE",
-				"Win32 DLL"
-			]
-		}
-	}
+	},
+	"version": 1,
+	"description": "This object if for recording and grouping basic information that is a result of a VirusTotal file search.",
+	"meta-category": "misc",
+	"uuid": "557ed5ec-b2f3-11e9-a2a3-2a2ae2dbcce4",
+	"name": "osrs-vt-base-object"
 }
 
 
