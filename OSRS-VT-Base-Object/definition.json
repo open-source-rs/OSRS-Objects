@@ -1,16 +1,11 @@
 {
-	"requiredOneOf":[
-		"md5",
-		"sha-1",
-		"sha-256"
-		],
 	"attributes":
 	{
 		"md5":
 		{
 			"description": "MD5 file hash",
 			"ui-priority": 1,
-			"misp-attribute": "md5.",
+			"misp-attribute": "md5",
 			"multiple": true,
 			"disable_correlation": false
 		},
@@ -53,5 +48,3 @@
 	"uuid": "557ed5ec-b2f3-11e9-a2a3-2a2ae2dbcce4",
 	"name": "osrs-vt-base-object"
 }
-
-
