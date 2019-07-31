@@ -14,7 +14,7 @@
 	"version": 1,
 	"description": "This object if for recording files that are opened by the sample during run time.",
 	"meta-category": "OSRS-Objects",
-	"uuid": "b2b13ae6-b3c7-11e9-a2a3-2a2ae2dbcce4",
+	"uuid": "d2146e62-b3c7-11e9-a2a3-2a2ae2dbcce4",
 	"name": "osrs-vt-files-opened"
 }
 
