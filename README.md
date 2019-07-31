@@ -1,9 +1,9 @@
 # OSRS-Objects
 For the creation of custom objects in MISP
 
-This repository contains the following objects:
+## This repository contains the following objects:
 
-1. OSRS-VT-Base-Object
+### 1. OSRS-VT-Base-Object
    - Base object used for creating the anchor to all other objects by reference.  This object contains the following attributes:
      - MD5 Hash Value
      - SHA-1 Hash Value
