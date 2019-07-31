@@ -1,11 +1,20 @@
 # OSRS-Objects
 For the creation of custom objects in MISP
 
-* OSRS-VT-Base-Object\
- * Base object that contains the following attributes:
-    * MD5 Hash
+This repository contains the following objects:
+
+1. OSRS-VT-Base-Object
+   - Base object used for creating the anchor to all other objects by reference.  This object contains the following attributes:
+     - MD5 Hash Value
+     - SHA-1 Hash Value
+     - SHA-256 Hash Value
+     - File Names
+     - Link to VirusTotal Report
+     - File Type
   
-* OSRS-VT-Contacted-Domains
+2. OSRS-VT-Contacted-Domains
+   - Contacted domains is used to record the domains that the sample attempted to communicate with.  This object Containst the following attrubtues:
+     - Domain
 * OSRS-VT-Contacted-IPs
 * OSRS-VT-Files-Copied
 * OSRS-VT-Files-Deleted
