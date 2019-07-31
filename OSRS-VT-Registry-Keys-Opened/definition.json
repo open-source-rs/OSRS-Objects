@@ -1,1 +1,29 @@
-ph
+{
+	"attributes":
+	{
+		"registry-keys-opened":
+		{
+			"description": "Registry keys opened by the sample during run time.",
+			"ui-priority": 1,
+			"misp-attribute": "regkey",
+			"multiple": true,
+			"disable_correlation": false,
+			"to_ids": false
+		},
+		"registry-key-value-pair-opened":
+		{
+			"description": "Registry keys|value pairs opened by the sample during run time.",
+			"ui-priority": 1,
+			"misp-attribute": "regkey|value",
+			"multiple": true,
+			"disable_correlation": false,
+			"to_ids": false
+		}
+	},
+	"version": 1,
+	"description": "This object is for recording of registry key(s) opened by the sample during run time.",
+	"meta-category": "OSRS-Objects",
+	"uuid": "e84c32a2-b3ca-11e9-a2a3-2a2ae2dbcce4",
+	"name": "osrs-vt-registry-keys-opened"
+}
+
