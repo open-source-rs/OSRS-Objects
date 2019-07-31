@@ -12,24 +12,24 @@ For the creation of custom objects in MISP
      - Link to VirusTotal Report
      - File Type
   
-2. OSRS-VT-Contacted-Domains
+### 2. OSRS-VT-Contacted-Domains
    - Contacted domains is used to record the domains that the sample attempted to communicate with.  This object Containst the following attrubtues:
      - Domain
-* OSRS-VT-Contacted-IPs
-* OSRS-VT-Files-Copied
-* OSRS-VT-Files-Deleted
-* OSRS-VT-Files-Dropped
-* OSRS-VT-Files-Imported
-* OSRS-VT-Files-Opened
-* OSRS-VT-Files-Written
-* OSRS-VT-Mutexes-Created
-* OSRS-VT-Mutexes-Opened
-* OSRS-VT-Premissions-Requested
-* OSRS-VT-Process-Tree
-* OSRS-VT-Processes-Created
-* OSRS-VT-Registry-Keys-Deleted
-* OSRS-VT-Registry-Keys-Opened
-* OSRS-VT-Registry-Keys-Set
-* OSRS-VT-Runtime-Modules-Loaded
-* OSRS-VT-Services-Opened
-* OSRS-VT-Shell-Commands
+### 3. OSRS-VT-Contacted-IPs
+### 4. OSRS-VT-Files-Copied
+### 5. OSRS-VT-Files-Deleted
+### 6. OSRS-VT-Files-Dropped
+### 7. OSRS-VT-Files-Imported
+### 8. OSRS-VT-Files-Opened
+### 9. OSRS-VT-Files-Written
+### 10. OSRS-VT-Mutexes-Created
+### 11. OSRS-VT-Mutexes-Opened
+### 12. OSRS-VT-Premissions-Requested
+### 13. OSRS-VT-Process-Tree
+### 14. OSRS-VT-Processes-Created
+### 15. OSRS-VT-Registry-Keys-Deleted
+### 16. OSRS-VT-Registry-Keys-Opened
+### 17. OSRS-VT-Registry-Keys-Set
+### 18. OSRS-VT-Runtime-Modules-Loaded
+### 19. OSRS-VT-Services-Opened
+### 20. OSRS-VT-Shell-Commands
