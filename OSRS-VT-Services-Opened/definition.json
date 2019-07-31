@@ -1,1 +1,19 @@
-place holder
+{
+	"attributes":
+	{
+		"services-opened":
+		{
+			"description": "Services opened by the sample during run time.",
+			"ui-priority": 1,
+			"misp-attribute": "text",
+			"multiple": true,
+			"disable_correlation": false,
+			"to_ids": false
+		}
+	},
+	"version": 1,
+	"description": "This object is for recording services opened by the sample during run time.",
+	"meta-category": "OSRS-Objects",
+	"uuid": "a24bb4fc-b3cb-11e9-a2a3-2a2ae2dbcce4",
+	"name": "osrs-vt-services-opened"
+}
