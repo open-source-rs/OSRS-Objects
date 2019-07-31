@@ -13,9 +13,11 @@ For the creation of custom objects in MISP
      - File Type
   
 ### 2. OSRS-VT-Contacted-Domains
-   - Contacted domains is used to record the domains that the sample attempted to communicate with.  This object Containst the following attrubtues:
+   - Contacted domains is used to record the domains (or URLs) that the sample attempted to communicate with.  This object contains the following attrubtues:
      - Domain
 ### 3. OSRS-VT-Contacted-IPs
+   - Contact IPs is used to record the IP address(es) that the sample attempted to communicate with.  The object contains the following attributes:
+     - Destination IP
 ### 4. OSRS-VT-Files-Copied
 ### 5. OSRS-VT-Files-Deleted
 ### 6. OSRS-VT-Files-Dropped
