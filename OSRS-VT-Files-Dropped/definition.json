@@ -1,1 +1,20 @@
-ph
+{
+	"attributes":
+	{
+		"files-dropped":
+		{
+			"description": "Files dropped by the sample to the system during run time.",
+			"ui-priority": 1,
+			"misp-attribute": "filename",
+			"multiple": true,
+			"disable_correlation": false,
+			"to_ids": false
+		}
+	},
+	"version": 1,
+	"description": "This object if for recording files that are dropped onto the system by the sample during run time.",
+	"meta-category": "OSRS-Objects",
+	"uuid": "4a071484-b3c7-11e9-a2a3-2a2ae2dbcce4",
+	"name": "osrs-vt-files-dropped"
+}
+
