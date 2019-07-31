@@ -1,1 +1,19 @@
-place holder
+{
+	"attributes":
+	{
+		"shell-commands":
+		{
+			"description": "Shell commands executed by the sample during run time.",
+			"ui-priority": 1,
+			"misp-attribute": "text",
+			"multiple": true,
+			"disable_correlation": false,
+			"to_ids": false
+		}
+	},
+	"version": 1,
+	"description": "This object is for recording shell command(s) executed by the sample during run time.",
+	"meta-category": "OSRS-Objects",
+	"uuid": "d52fe28a-b3cb-11e9-a2a3-2a2ae2dbcce4",
+	"name": "osrs-vt-shell-commands"
+}
