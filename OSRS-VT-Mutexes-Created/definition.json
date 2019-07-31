@@ -1,1 +1,20 @@
-place holder
+{
+	"attributes":
+	{
+		"mutexes-created":
+		{
+			"description": "Mutexes created by the sample during run time.",
+			"ui-priority": 1,
+			"misp-attribute": "mutex",
+			"multiple": true,
+			"disable_correlation": false,
+			"to_ids": false
+		}
+	},
+	"version": 1,
+	"description": "This object is for recording of mutex(es) created by the sample during run time.",
+	"meta-category": "OSRS-Objects",
+	"uuid": "346a192c-b3c8-11e9-a2a3-2a2ae2dbcce4",
+	"name": "osrs-vt-mutexes-created"
+}
+
