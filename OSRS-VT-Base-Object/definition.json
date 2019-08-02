@@ -60,9 +60,27 @@
 			"multiple": false,
 			"disable_correlation": true,
 			"to_ids": false
+		},
+		"first-seen":
+		{
+			"description": "Date file first uploaded to VirusTotal",
+			"ui-priority": 0,
+			"misp-attribute": "text",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"last-seen":
+		{
+			"description": "Date file last uploaded to VirusTotal",
+			"ui-priority": 0,
+			"misp-attribute": "text",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
 		}
 	},
-	"version": 1,
+	"version": 2,
 	"description": "This object if for recording and grouping basic information that is a result of a VirusTotal file search.",
 	"meta-category": "OSRS-Objects",
 	"uuid": "557ed5ec-b2f3-11e9-a2a3-2a2ae2dbcce4",
