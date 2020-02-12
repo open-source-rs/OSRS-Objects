@@ -1,0 +1,19 @@
+{
+	"attributes":
+	{
+		"ei-total-modifier":
+		{
+			"description": "Ease of Identification (Total EI Modifier)",
+			"ui-priority": 1,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		}
+	},
+	"version": 2,
+	"description": "This object if for recording the results from calculations performed using the ENSIA DB SE rating system. Specifically the score results for Ease of Identification (Total EI Modifier).",
+	"meta-category": "CMCF-BLOCK-OSRS-OBJECTS",
+	"uuid": "d22e84ce-4da4-11ea-b77f-2e728ce88125",
+	"name": "db-se-ei-total-modifier"
+}
