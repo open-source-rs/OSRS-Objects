@@ -1,0 +1,185 @@
+{
+	"attributes":
+	{
+		"simpled":
+		{
+			"description": "Data Processing Context (Simple Data)",
+			"ui-priority": 1,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"behaviorald":
+		{
+			"description": "Data Processing Context (Behavioral Data)",
+			"ui-priority": 2,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"financiald":
+		{
+			"description": "Data Processing Context (Financial Data)",
+			"ui-priority": 3,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"sensitived":
+		{
+			"description": "Data Processing Context (Sensitive Data)",
+			"ui-priority": 4,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"totaldpc":
+		{
+			"description": "Data Processing Context (Total DPC Score)",
+			"ui-priority": 5,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"fullname":
+		{
+			"description": "Ease of Identification (Full Name)",
+			"ui-priority": 6,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"passport":
+		{
+			"description": "Ease of Identification (ID Card, Passport, or Social Security Number)",
+			"ui-priority": 7,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"homeaddress":
+		{
+			"description": "Ease of Identification (Telephone Number or Home Address)",
+			"ui-priority": 8,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"emailaddress":
+		{
+			"description": "Ease of Identification (Email Address)",
+			"ui-priority": 9,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"picture":
+		{
+			"description": "Ease of Identification (Picture)",
+			"ui-priority": 10,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"coding":
+		{
+			"description": "Ease of Identification (Coding, Alias, or Initials)",
+			"ui-priority": 11,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"totaleimod":
+		{
+			"description": "Ease of Identification (Total EI Modifier)",
+			"ui-priority": 12,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"conf":
+		{
+			"description": "Circumstance of Breach (Loss of Confidentiality)",
+			"ui-priority": 13,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"integ":
+		{
+			"description": "Circumstance of Breach (Loss of Integrity)",
+			"ui-priority": 14,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"avail":
+		{
+			"description": "Circumstance of Breach (Loss of Availability)",
+			"ui-priority": 15,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"inten":
+		{
+			"description": "Circumstance of Breach (Malicious Intent)",
+			"ui-priority": 16,
+			"misp-attribute": "other",
+			"multiple": true,
+			"disable_correlation": true,
+			"to_ids": false,
+			"sane_default": [
+				"malicious",
+				"not malicious"
+			]
+		},
+		"totalcbmod":
+		{
+			"description": "Circumstance of Breach (Total CB Modifier)",
+			"ui-priority": 17,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"sevrating":
+		{
+			"description": "Total severity rating score",
+			"ui-priority": 18,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		},
+		"sevrank":
+		{
+			"description": "Severity ranking based on severity score",
+			"ui-priority": 19,
+			"misp-attribute": "other",
+			"multiple": false,
+			"disable_correlation": true,
+			"to_ids": false
+		}
+	},
+	"version": 1,
+	"description": "This object if for recording the results from calculations performed using the ENSIA DB SE rating system in combination with other variables assigned by the OSRS.",
+	"meta-category": "CMCF-BLOCK-OSRS-DBRP",
+	"uuid": "c72eddc6-9a1b-11ea-bb37-0242ac130002",
+	"name": "osrs-dbrp"
+}
